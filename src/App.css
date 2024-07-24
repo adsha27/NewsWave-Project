@@ -1,0 +1,68 @@
+.card{
+    height: 55vh;
+}
+.card-img-top{
+    min-height: 50%;
+}
+.newsTitle {
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}
+.newsDesc {
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}
+
+/* Aldrich Family */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap'); 
+
+body{
+  font-family: 'Aldrich', sans-serif;
+  background-color: #7db0de;
+}
+a:hover {
+  cursor:pointer;
+}
+/* for short underline */
+.underline-small{
+    position:relative;
+  }
+  
+  .underline-small::after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#6df899;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+    
+  }
+.navLinks{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.infoBtn{
+    background-color: transparent;
+    border: none;
+}
+.infoBtn img{
+    width: 30px;
+    height: 30px;
+}
+.downInfo{
+    color: white;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
